@@ -1,0 +1,44 @@
+{
+    "users": [
+        {"id": 1, "name": "Amit", "friends": [2, 3], "liked_pages": [101]},
+        {"id": 2, "name": "Priya", "friends": [1, 4], "liked_pages": [102]},
+        {"id": 3, "name": "", "friends": [1], "liked_pages": [101, 103]},
+        {"id": 4, "name": "Sara", "friends": [2, 2], "liked_pages": [104]},
+        {"id": 5, "name": "Amit", "friends": [], "liked_pages": []},
+
+        {"id": 6, "name": "Rahul", "friends": [1, 2, 2], "liked_pages": [101, 105]},
+        {"id": 7, "name": "Neha", "friends": [2, 6], "liked_pages": [102, 106]},
+        {"id": 8, "name": "", "friends": [6, 7], "liked_pages": [105]},
+        {"id": 9, "name": "Karan", "friends": [6, 7, 7], "liked_pages": [103, 107]},
+        {"id": 10, "name": "Pooja", "friends": [7, 9], "liked_pages": [106, 108]},
+        {"id": 11, "name": "Riya", "friends": [1, 10], "liked_pages": [101, 108]},
+        {"id": 12, "name": "Arjun", "friends": [6, 11], "liked_pages": [105, 107]},
+        {"id": 13, "name": "Sneha", "friends": [9, 10], "liked_pages": [102, 108]},
+        {"id": 14, "name": "", "friends": [11], "liked_pages": [106]},
+        {"id": 15, "name": "Vikas", "friends": [12, 13, 13], "liked_pages": [105, 101]},
+        {"id": 16, "name": "Meera", "friends": [15, 10], "liked_pages": [107, 108]},
+        {"id": 17, "name": "Ankit", "friends": [6, 16], "liked_pages": [105, 103]},
+        {"id": 18, "name": "Nisha", "friends": [17, 11], "liked_pages": [101, 106]},
+        {"id": 19, "name": "Rohan", "friends": [18, 15], "liked_pages": [102, 107]},
+        {"id": 20, "name": "Simran", "friends": [19, 16], "liked_pages": [108]},
+        {"id": 21, "name": "Kabir", "friends": [20, 18], "liked_pages": [103, 105]},
+        {"id": 22, "name": "Isha", "friends": [21, 17], "liked_pages": [101, 104]},
+        {"id": 23, "name": "", "friends": [22], "liked_pages": [108]},
+        {"id": 24, "name": "Yash", "friends": [21, 22, 22], "liked_pages": [107, 106]},
+        {"id": 25, "name": "Dev", "friends": [], "liked_pages": []}
+    ],
+
+    "pages": [
+        {"id": 101, "name": "Python Developers"},
+        {"id": 102, "name": "Data Science Enthusiasts"},
+        {"id": 103, "name": "AI & ML Community"},
+        {"id": 104, "name": "Web Dev Hub"},
+        {"id": 104, "name": "Web Development"},
+
+        {"id": 105, "name": "Machine Learning Hub"},
+        {"id": 106, "name": "Java Programmers"},
+        {"id": 107, "name": "Cloud Computing"},
+        {"id": 108, "name": "Open Source Community"},
+        {"id": 108, "name": "Open Source Developers"}
+    ]
+}
