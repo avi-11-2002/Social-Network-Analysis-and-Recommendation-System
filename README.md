@@ -11,10 +11,12 @@ A beginner-friendly Python project that analyzes a social network dataset and pr
 
 ## Project Files
 
-- `introduction.ipynb` – Overview of the dataset
-- `data_cleaning.ipynb` – Cleans and prepares the data
-- `people_you_may_know.ipynb` – Friend recommendation system
-- `pages_you_like.ipynb` – Page recommendation system
+- `raw_data.json` – Raw social network dataset
+- `cleaned_data.json` – Cleaned dataset after preprocessing
+- `data_loading.ipynb` – Loads and explores the dataset
+- `data_cleaning.ipynb` – Cleans and preprocesses the data
+- `people_you_may_know.ipynb` – Recommends users based on mutual connections
+- `pages_you_may_like.ipynb` – Recommends pages based on user interests
 
 ## Technologies Used
 
